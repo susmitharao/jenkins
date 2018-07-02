@@ -24,6 +24,7 @@ public class NamikTest
 		 report = new ExtentReports("./reports.html");
 		 logger =report.startTest("display");
 		 logger.log(LogStatus.PASS, "Test Case Passed is passTest");
+		 System.out.println("Welcome to Jenkins");
 		 report.endTest(logger);
 	     report.flush();
 	     report.close();
